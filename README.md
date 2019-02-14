@@ -6,6 +6,9 @@ Observation ID
 
 WFM NGC6397 1
 
+
+- [ ] Do geometry ?
+
 #Observation 2
 
 
