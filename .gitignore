@@ -1,0 +1,8 @@
+ignore all the fits files and tile compressed fits. 
+*.fits
+*.fz
+*.NL.txt
+*.xml
+
+#Ignore the pdf documents from ESO webpage
+ESO*

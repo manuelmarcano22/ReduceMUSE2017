@@ -1,0 +1,11 @@
+
+Start time     : 2019-02-14T14:16:22
+Program name   : esorex
+Severity level : [ INFO  ] 
+
+14:16:22 [ INFO  ] : [tid=000] This is EsoRex, version 3.13.1
+14:16:22 [ INFO  ] : [tid=000] using the libraries: CPL = 7.1, CFITSIO = 3.36, WCSLIB = 4.24, FFTW (normal precision) = 3.3.4-sse2, FFTW (single precision) = 3.3.4-sse2, CPL FLOP counting is unavailable, enable with -DCPL_ADD_FLOPS, OPENMP = 200805
+14:16:22 [ INFO  ] : [tid=000] Invocation command line was: esorex --recipe-config=/home/mmarcano/Documents/ReduceMUSE2017/Observation1/config/muse_wavecal.rc --log-file=wavecal.log muse_wavecal /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/sof/wavecal.sof
+14:16:22 [ ERROR ] : [tid=000] Unable to open SOF file '/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/sof/wavecal.sof'
+14:16:22 [ ERROR ] : [tid=000] Problem occurred loading frameset from the SOF file '/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/sof/wavecal.sof'.
+If you want to ignore errors of missing files in the sof, set '--check-sof-exist=false'.
