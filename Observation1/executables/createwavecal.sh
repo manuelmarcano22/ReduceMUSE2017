@@ -19,4 +19,4 @@ recipe=muse_wavecal
 filesof=wavecal.sof
 logfile=wavecal.log
 
-taskset -c 0-23 esorex --recipe-config=$RECIPE_CONFIG/$recipe'.rc' --log-file=$logfile  $recipe $SOF_LOCATION$filesof
+likwid-pin -c 0-23 esorex --recipe-config=$RECIPE_CONFIG/$recipe'.rc' --log-file=$logfile  $recipe $SOF_LOCATION$filesof

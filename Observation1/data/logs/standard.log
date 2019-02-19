@@ -1,0 +1,70 @@
+
+Start time     : 2019-02-19T17:15:19
+Program name   : esorex
+Severity level : [ INFO  ] 
+
+17:15:19 [ INFO  ] : [tid=000] This is EsoRex, version 3.13.1
+17:15:19 [ INFO  ] : [tid=000] using the libraries: CPL = 7.1, CFITSIO = 3.36, WCSLIB = 4.24, FFTW (normal precision) = 3.3.4-sse2, FFTW (single precision) = 3.3.4-sse2, CPL FLOP counting is unavailable, enable with -DCPL_ADD_FLOPS, OPENMP = 200805
+17:15:19 [ INFO  ] : [tid=000] Invocation command line was: esorex --recipe-config=/home/mmarcano/Documents/ReduceMUSE2017/Observation1/config/muse_standard.rc --log-file=standard.log muse_standard /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/sof/standard.sof
+17:15:19 [ INFO  ] muse_processing_recipeinfo: [tid=000] MUSE Instrument Pipeline v2.6
+17:15:19 [ INFO  ] muse_table_load: [tid=000] Loaded table from file "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2014-06-13T10:15:21.400.fits" (ext 1).
+17:15:20 [ INFO  ] muse_postproc_process_exposure: [tid=000] Starting to process exposure 1 (DATE-OBS=2017-06-03T05:44:34.000)
+17:15:20 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-01.fits" (image format)
+17:15:27 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-02.fits" (image format)
+17:15:38 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-03.fits" (image format)
+17:15:51 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-04.fits" (image format)
+17:16:02 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-05.fits" (image format)
+17:16:12 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-06.fits" (image format)
+17:16:22 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-07.fits" (image format)
+17:16:32 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-08.fits" (image format)
+17:16:41 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-09.fits" (image format)
+17:16:50 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-10.fits" (image format)
+17:17:00 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-11.fits" (image format)
+17:17:08 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-12.fits" (image format)
+17:17:20 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-13.fits" (image format)
+17:17:29 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-14.fits" (image format)
+17:17:40 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-15.fits" (image format)
+17:17:51 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-16.fits" (image format)
+17:18:01 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-17.fits" (image format)
+17:18:11 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-18.fits" (image format)
+17:18:20 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-19.fits" (image format)
+17:18:29 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-20.fits" (image format)
+17:18:40 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-21.fits" (image format)
+17:18:50 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-22.fits" (image format)
+17:19:01 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-23.fits" (image format)
+17:19:09 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_STD_0001-24.fits" (image format)
+17:19:21 [ INFO  ] muse_utils_spectrum_smooth: [tid=000] Smoothing flat-field spectrum with piecewise polynomial, plus running average
+17:19:43 [ INFO  ] muse_dar_correct: [tid=000] DAR for T=12.04 degC, fp=0.887 mmHg, P=557.6 mmHg, at airmass=1.0897, using ref. wavelength 0.700000 um (Filippenko)
+17:19:44 [ INFO  ] muse_postproc_load_nearest: [tid=000] Loading "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2014-08-27T12:50:13.527.fits[EG_274]" (distance 7.7 arcsec)
+17:19:45 [ INFO  ] muse_flux_reference_table_check: [tid=000] Found MUSE format, average sampling 0.100 Angstrom/bin over MUSE range
+17:19:45 [ INFO  ] muse_resampling_cube: [tid=000] Output cube size 316 x 305 x 3681 (fit to data)
+17:20:01 [ INFO  ] muse_resampling_cube: [tid=000] Using median statistics (25.000 sigma level) for cosmic-ray rejection
+17:21:04 [ INFO  ] muse_resampling_cube: [tid=000] Starting resampling, using method "drizzle" (pixfrac f=1.000,1.000,1.000, loop distance ld=1)
+17:21:24 [ INFO  ] muse_flux_integrate_cube: [tid=000] Moffat profile fits for flux integration
+17:21:24 [ INFO  ] muse_flux_integrate_cube: [tid=000] Using empirically estimated reference FWHM (2.710 pix) instead of DIMM seeing (2.075 pix), AO is inactive.
+17:21:28 [ INFO  ] muse_flux_integrate_cube: [tid=000] Half-sizes used for flux integration for object 1: 8.409502 +/- 0.339953 (8.129411) 8.129411..9.417000
+17:21:28 [ INFO  ] muse_flux_integrate_cube: [tid=000] Half-sizes used for flux integration for object 2: 8.430710 +/- 0.545260 (8.129411) 8.129411..11.895340
+17:21:28 [ INFO  ] muse_flux_integrate_cube: [tid=000] Successful fits in 3681 wavelength planes
+17:21:29 [ INFO  ] muse_flux_response_compute: [tid=000] Selected the nearest star (1 of 2; 6.99 arcsec) as reference object
+17:21:29 [ INFO  ] muse_utils_spectrum_smooth: [tid=000] Smoothing response curve with piecewise polynomial, plus running average
+17:21:29 [ INFO  ] muse_flux_compute_qc: [tid=000] Computing throughput using effective VLT area of 483250.7 cm**2, from smoothed response curve
+17:21:29 [ INFO  ] muse_flux_compute_qc: [tid=000]   Throughput at 5000 +/- 100 Angstrom: 0.2193 +/- 0.0081
+17:21:29 [ INFO  ] muse_flux_compute_qc: [tid=000]   Throughput at 7000 +/- 100 Angstrom: 0.3326 +/- 0.0006
+17:21:29 [ INFO  ] muse_flux_compute_qc: [tid=000]   Throughput at 8000 +/- 100 Angstrom: 0.2510 +/- 0.0055
+17:21:29 [ INFO  ] muse_flux_compute_qc: [tid=000]   Throughput at 9000 +/- 100 Angstrom: 0.1555 +/- 0.0074
+17:21:33 [ INFO  ] muse_postproc_qc_fwhm: [tid=000] Computed FWHM QC parameters for 7 of 7 sources found down to the 5.0 sigma threshold on plane 1841
+17:21:33 [ INFO  ] muse_processing_save_cube: [tid=000] Saving FITS cube as "DATACUBE_STD_0001.fits"
+17:21:37 [ INFO  ] muse_processing_save_image: [tid=000] Saving image as STD_FLUXES_0001.fits
+17:21:37 [ INFO  ] muse_processing_save_table: [tid=000] Saving table as "STD_RESPONSE_0001.fits"
+17:21:37 [ INFO  ] muse_processing_save_table: [tid=000] Saving table as "STD_TELLURIC_0001.fits"
+17:21:37 [ INFO  ] : [tid=000] Calculating product checksums
+17:21:43 [ INFO  ] : [tid=000] Created product /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/DATACUBE_STD_0001.fits
+17:21:44 [ INFO  ] : [tid=000] Created product /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/STD_FLUXES_0001.fits
+17:21:44 [ INFO  ] : [tid=000] Created product /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/STD_RESPONSE_0001.fits
+17:21:44 [ INFO  ] : [tid=000] Created product /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/STD_TELLURIC_0001.fits
+17:21:44 [ INFO  ] : [tid=000] 4 products created
+17:21:44 [ INFO  ] : [tid=000] Recipe operation(s) took            385 seconds to complete.
+17:21:44 [ INFO  ] : [tid=000] Total size of 24 raw input frames  =  9073.45 MB
+
+17:21:44 [ INFO  ] : [tid=000] => processing rate of    23.59 MB/sec 
+

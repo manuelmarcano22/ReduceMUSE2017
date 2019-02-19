@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-""" Program to create a list of the FLATs """
+""" Program to create a list of the flat sof """
 
 from astropy.io import fits
 import glob, os
-
+from lookcriteria import lookfits
 
 
 
@@ -11,43 +11,28 @@ datadirectory = os.environ['DATA_LOCATION']
 sofdir = os.environ['SOF_LOCATION']
 outputdir = os.environ['ESOREX_OUTPUT_DIR']
 
+
 sof = 'flat.sof'
 
 
 files = glob.glob(datadirectory+'/*fits')
 filesout = glob.glob(outputdir+'/*fits')
 
+
+files.extend(filesout)
 lista = []
-for f in files:
-    hd = fits.getheader(f)
-    #Look for FLats
-    try:
-        if hd['ESO DPR TYPE']=='FLAT,LAMP':
-            dirpath = os.path.dirname(f)
-            name = os.path.basename(f)
-            typename = 'FLAT'
-            fullname = '{}/{}\t{}\n'.format(dirpath,name,typename)
-            lista.append(fullname)
-    except:
-        pass
 
-for f in filesout:
-    hd = fits.getheader(f)
-    #Look for master_bias
-    try:
-        if hd['PIPEFILE']=='MASTER_BIAS.fits':
-            dirpath = os.path.dirname(f)
-            name = os.path.basename(f)
-            typename = 'MASTER_BIAS'
-            fullname = '{}/{}\t{}\n'.format(dirpath,name,typename)
-            lista.append(fullname)
-    except:
-        pass
 
-   
+lookfits(files,lista,'ESO DPR TYPE','FLAT,LAMP','FLAT')
+lookfits(files,lista,'PIPEFILE','MASTER_BIAS.fits','MASTER_BIAS')
+lookfits(files,lista,'PIPEFILE','MASTER_DARK.fits','MASTER_DARK')
+lookfits(files,lista,'HIERARCH ESO PRO CATG','BADPIX_TABLE','BADPIX_TABLE')
+
+
+  
     
 
-print(lista[0])
+print(lista[-1])
 
 soffile = '{}{}'.format(sofdir,sof)
 sof = open(soffile, 'w')        

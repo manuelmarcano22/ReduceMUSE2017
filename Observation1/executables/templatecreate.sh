@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SLF
+#Twilight
 
 
 #Souce Params file with enviroment variables
@@ -9,14 +9,14 @@ source $scripts/config/params
 
 
 #Create bias sof with python
-python3 createlsfsof.py
+python3 create---sof.py
 
 #Change to data location
 cd $DATA_LOCATION
 
 #Variables
-recipe=muse_lsf
-filesof=lsf.sof
-logfile=lsf.log
+recipe=muse_
+filesof=.sof
+logfile=.log
 
-likwid-pin -c 0-23 esorex --recipe-config=$RECIPE_CONFIG/$recipe'.rc' --log-file=$logfile  $recipe $SOF_LOCATION$filesof
+#likwid-pin -c 0-23 esorex --recipe-config=$RECIPE_CONFIG/$recipe'.rc' --log-file=$logfile  $recipe $SOF_LOCATION$filesof

@@ -1,0 +1,19 @@
+
+
+# To-do
+
+- [ ] Ask Anna regarding gemoetry
+- [ ] Do the Dark? Ask Anna. They say usually not used, but I see them included.  I just realized they do game some darks. If do it have to redo the flat. 
+
+- [ ] There are two Illum but only on needed. Use one?
+- [ ] How to do sciebasci. Merge all objects or what? For STD there is only one. 
+- [ ]  musescibase merge = true o false?
+- [ ] Ask Ana about STD datacube. Looks noise.
+
+# Notes
+
+Install likwid and had this same proble https://github.com/RRZE-HPC/likwid/issues/102
+
+And change group and where to intall
+
+ Already have Astrometry wcs 

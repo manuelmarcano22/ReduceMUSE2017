@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Program to create a list of the BIAS sof"""
+""" Program to create a list of the STD standard sof """
 
 from astropy.io import fits
 import glob, os
@@ -12,7 +12,7 @@ sofdir = os.environ['SOF_LOCATION']
 outputdir = os.environ['ESOREX_OUTPUT_DIR']
 
 
-sof = 'bias.sof'
+sof = 'standard.sof'
 
 
 files = glob.glob(datadirectory+'/*fits')
@@ -22,10 +22,15 @@ filesout = glob.glob(outputdir+'/*fits')
 files.extend(filesout)
 lista = []
 
+#PIXTSABLE_STD
 
-lookfits(files,lista,'ESO DPR TYPE','BIAS','BIAS')
+lookfits(files,lista,'HIERARCH ESO PRO CATG','PIXTABLE_STD','PIXTABLE_STD')
 
-lookfits(files,lista,'HIERARCH ESO PRO CATG','BADPIX_TABLE','BADPIX_TABLE')
+lookfits(files,lista,'HIERARCH ESO PRO CATG','EXTINCT_TABLE','EXTINCT_TABLE')
+lookfits(files,lista,'HIERARCH ESO PRO CATG','STD_FLUX_TABLE','STD_FLUX_TABLE')
+lookfits(files,lista,'HIERARCH ESO PRO CATG','FILTER_LIST','FILTER_LIST')
+
+
 
 
   

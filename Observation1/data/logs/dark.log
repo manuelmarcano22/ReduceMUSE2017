@@ -1,0 +1,351 @@
+
+Start time     : 2019-02-19T12:45:48
+Program name   : esorex
+Severity level : [ INFO  ] 
+
+12:45:48 [ INFO  ] : [tid=000] This is EsoRex, version 3.13.1
+12:45:48 [ INFO  ] : [tid=000] using the libraries: CPL = 7.1, CFITSIO = 3.36, WCSLIB = 4.24, FFTW (normal precision) = 3.3.4-sse2, FFTW (single precision) = 3.3.4-sse2, CPL FLOP counting is unavailable, enable with -DCPL_ADD_FLOPS, OPENMP = 200805
+12:45:48 [ INFO  ] : [tid=000] Invocation command line was: esorex --recipe-config=/home/mmarcano/Documents/ReduceMUSE2017/Observation1/config/muse_dark.rc --log-file=dark.log muse_dark /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/sof/dark.sof
+12:45:48 [ INFO  ] muse_processing_recipeinfo: [tid=000] MUSE Instrument Pipeline v2.6
+12:45:50 [ INFO  ] muse_image_load_from_raw: [tid=004] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN05]" (extension 5)
+12:45:50 [ INFO  ] muse_image_load_from_raw: [tid=002] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN03]" (extension 6)
+12:45:50 [ INFO  ] muse_image_load_from_raw: [tid=010] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN11]" (extension 4)
+12:45:50 [ INFO  ] muse_image_load_from_raw: [tid=014] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN15]" (extension 3)
+12:45:50 [ INFO  ] muse_image_load_from_raw: [tid=016] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN17]" (extension 2)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=022] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN23]" (extension 1)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=004] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN05]" (extension 5)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=002] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN03]" (extension 6)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=021] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN22]" (extension 7)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=007] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN08]" (extension 11)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=009] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN10]" (extension 10)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=019] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN20]" (extension 8)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=001] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN02]" (extension 12)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=016] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN17]" (extension 2)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=013] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN14]" (extension 9)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=021] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN22]" (extension 7)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=020] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN21]" (extension 13)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=014] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN15]" (extension 3)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=019] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN20]" (extension 8)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=013] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN14]" (extension 9)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=010] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN11]" (extension 4)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=008] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN09]" (extension 16)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=006] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN07]" (extension 17)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=022] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN23]" (extension 1)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=018] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN19]" (extension 14)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=002] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN03]" (extension 6)
+12:45:51 [ INFO  ] muse_image_load_from_raw: [tid=004] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN05]" (extension 5)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=000] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN01]" (extension 18)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=012] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN13]" (extension 15)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=007] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN08]" (extension 11)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=009] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN10]" (extension 10)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=023] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN24]" (extension 19)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=016] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN17]" (extension 2)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=005] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN06]" (extension 23)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=001] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN02]" (extension 12)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=017] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN18]" (extension 20)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=021] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN22]" (extension 7)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=018] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN19]" (extension 14)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=003] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN04]" (extension 24)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=006] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN07]" (extension 17)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=009] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN10]" (extension 10)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=012] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN13]" (extension 15)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=019] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN20]" (extension 8)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=014] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN15]" (extension 3)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=007] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN08]" (extension 11)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=013] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN14]" (extension 9)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=015] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN16]" (extension 21)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=020] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN21]" (extension 13)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=001] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN02]" (extension 12)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=011] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:28:17.414.fits[CHAN12]" (extension 22)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=010] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN11]" (extension 4)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=000] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN01]" (extension 18)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=008] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN09]" (extension 16)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=022] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN23]" (extension 1)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=004] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN05]" (extension 5)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=005] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN06]" (extension 23)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=020] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN21]" (extension 13)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=023] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN24]" (extension 19)
+12:45:52 [ INFO  ] muse_image_load_from_raw: [tid=002] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN03]" (extension 6)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=018] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN19]" (extension 14)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=016] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN17]" (extension 2)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=021] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN22]" (extension 7)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=019] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN20]" (extension 8)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=014] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN15]" (extension 3)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=017] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN18]" (extension 20)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=010] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN11]" (extension 4)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=007] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN08]" (extension 11)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=013] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN14]" (extension 9)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=003] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN04]" (extension 24)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=009] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN10]" (extension 10)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=006] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN07]" (extension 17)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=012] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN13]" (extension 15)
+12:45:53 [ INFO  ] muse_image_load_from_raw: [tid=008] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN09]" (extension 16)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=001] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN02]" (extension 12)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=015] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN16]" (extension 21)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=011] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T02:59:22.464.fits[CHAN12]" (extension 22)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=004] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN05]" (extension 5)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=002] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN03]" (extension 6)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=020] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN21]" (extension 13)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=000] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN01]" (extension 18)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=023] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN24]" (extension 19)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=022] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN23]" (extension 1)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=018] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN19]" (extension 14)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=005] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN06]" (extension 23)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=016] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN17]" (extension 2)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=021] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN22]" (extension 7)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=019] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN20]" (extension 8)
+12:45:54 [ INFO  ] muse_image_load_from_raw: [tid=014] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN15]" (extension 3)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=007] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN08]" (extension 11)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=017] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN18]" (extension 20)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=010] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN11]" (extension 4)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=006] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN07]" (extension 17)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=013] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN14]" (extension 9)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=003] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN04]" (extension 24)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=009] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN10]" (extension 10)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=012] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN13]" (extension 15)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=008] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN09]" (extension 16)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=000] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN01]" (extension 18)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=001] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN02]" (extension 12)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=015] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN16]" (extension 21)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=020] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN21]" (extension 13)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=018] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN19]" (extension 14)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=023] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN24]" (extension 19)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=011] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T03:30:27.509.fits[CHAN12]" (extension 22)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=022] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN23]" (extension 1)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=017] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN18]" (extension 20)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=005] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN06]" (extension 23)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=006] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN07]" (extension 17)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=008] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN09]" (extension 16)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=003] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN04]" (extension 24)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=012] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN13]" (extension 15)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=000] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN01]" (extension 18)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=015] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN16]" (extension 21)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=023] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN24]" (extension 19)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=011] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:01:32.482.fits[CHAN12]" (extension 22)
+12:45:55 [ INFO  ] muse_image_load_from_raw: [tid=017] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN18]" (extension 20)
+12:45:56 [ INFO  ] muse_image_load_from_raw: [tid=005] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN06]" (extension 23)
+12:45:56 [ INFO  ] muse_image_load_from_raw: [tid=003] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN04]" (extension 24)
+12:45:56 [ INFO  ] muse_image_load_from_raw: [tid=015] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN16]" (extension 21)
+12:45:56 [ INFO  ] muse_image_load_from_raw: [tid=011] loaded "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-14T04:32:37.598.fits[CHAN12]" (extension 22)
+12:45:59 [ INFO  ] muse_basicproc_apply_bias: [tid=004] Bias correction in IFU 5 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN05.DATA]"
+12:45:59 [ INFO  ] muse_basicproc_apply_bias: [tid=002] Bias correction in IFU 3 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN03.DATA]"
+12:45:59 [ INFO  ] muse_basicproc_apply_bias: [tid=000] Bias correction in IFU 1 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN01.DATA]"
+12:46:00 [ INFO  ] muse_basicproc_apply_bias: [tid=007] Bias correction in IFU 8 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN08.DATA]"
+12:46:00 [ INFO  ] muse_basicproc_apply_bias: [tid=016] Bias correction in IFU 17 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN17.DATA]"
+12:46:00 [ INFO  ] muse_basicproc_apply_bias: [tid=009] Bias correction in IFU 10 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN10.DATA]"
+12:46:00 [ INFO  ] muse_basicproc_apply_bias: [tid=010] Bias correction in IFU 11 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN11.DATA]"
+12:46:01 [ INFO  ] muse_basicproc_apply_bias: [tid=013] Bias correction in IFU 14 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN14.DATA]"
+12:46:01 [ INFO  ] muse_basicproc_apply_bias: [tid=008] Bias correction in IFU 9 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN09.DATA]"
+12:46:01 [ INFO  ] muse_basicproc_apply_bias: [tid=006] Bias correction in IFU 7 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN07.DATA]"
+12:46:01 [ INFO  ] muse_basicproc_apply_bias: [tid=019] Bias correction in IFU 20 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN20.DATA]"
+12:46:01 [ INFO  ] muse_basicproc_apply_bias: [tid=003] Bias correction in IFU 4 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN04.DATA]"
+12:46:01 [ INFO  ] muse_basicproc_apply_bias: [tid=021] Bias correction in IFU 22 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN22.DATA]"
+12:46:01 [ INFO  ] muse_basicproc_apply_bias: [tid=020] Bias correction in IFU 21 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN21.DATA]"
+12:46:02 [ INFO  ] muse_basicproc_apply_bias: [tid=022] Bias correction in IFU 23 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN23.DATA]"
+12:46:02 [ INFO  ] muse_basicproc_apply_bias: [tid=018] Bias correction in IFU 19 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN19.DATA]"
+12:46:02 [ INFO  ] muse_basicproc_apply_bias: [tid=014] Bias correction in IFU 15 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN15.DATA]"
+12:46:02 [ INFO  ] muse_basicproc_apply_bias: [tid=005] Bias correction in IFU 6 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN06.DATA]"
+12:46:02 [ INFO  ] muse_basicproc_apply_bias: [tid=001] Bias correction in IFU 2 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN02.DATA]"
+12:46:02 [ INFO  ] muse_basicproc_apply_bias: [tid=017] Bias correction in IFU 18 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN18.DATA]"
+12:46:02 [ INFO  ] muse_basicproc_apply_bias: [tid=012] Bias correction in IFU 13 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN13.DATA]"
+12:46:02 [ INFO  ] muse_basicproc_apply_bias: [tid=023] Bias correction in IFU 24 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN24.DATA]"
+12:46:02 [ INFO  ] muse_basicproc_apply_bias: [tid=011] Bias correction in IFU 12 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN12.DATA]"
+12:46:03 [ INFO  ] muse_basicproc_apply_bias: [tid=015] Bias correction in IFU 16 using "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits[CHAN16.DATA]"
+12:46:05 [ INFO  ] muse_basicproc_adu_to_count: [tid=002] Converting 5 exposures from adu to count (= electron) units in IFU 3
+12:46:05 [ INFO  ] muse_basicproc_adu_to_count: [tid=004] Converting 5 exposures from adu to count (= electron) units in IFU 5
+12:46:06 [ INFO  ] muse_basicproc_adu_to_count: [tid=000] Converting 5 exposures from adu to count (= electron) units in IFU 1
+12:46:06 [ INFO  ] muse_basicproc_adu_to_count: [tid=007] Converting 5 exposures from adu to count (= electron) units in IFU 8
+12:46:07 [ INFO  ] muse_basicproc_adu_to_count: [tid=009] Converting 5 exposures from adu to count (= electron) units in IFU 10
+12:46:07 [ INFO  ] muse_basicproc_adu_to_count: [tid=010] Converting 5 exposures from adu to count (= electron) units in IFU 11
+12:46:07 [ INFO  ] muse_basicproc_adu_to_count: [tid=008] Converting 5 exposures from adu to count (= electron) units in IFU 9
+12:46:07 [ INFO  ] muse_basicproc_adu_to_count: [tid=005] Converting 5 exposures from adu to count (= electron) units in IFU 6
+12:46:07 [ INFO  ] muse_basicproc_adu_to_count: [tid=016] Converting 5 exposures from adu to count (= electron) units in IFU 17
+12:46:08 [ INFO  ] muse_basicproc_adu_to_count: [tid=006] Converting 5 exposures from adu to count (= electron) units in IFU 7
+12:46:08 [ INFO  ] muse_basicproc_adu_to_count: [tid=003] Converting 5 exposures from adu to count (= electron) units in IFU 4
+12:46:08 [ INFO  ] muse_basicproc_adu_to_count: [tid=013] Converting 5 exposures from adu to count (= electron) units in IFU 14
+12:46:09 [ INFO  ] muse_basicproc_adu_to_count: [tid=011] Converting 5 exposures from adu to count (= electron) units in IFU 12
+12:46:09 [ INFO  ] muse_basicproc_adu_to_count: [tid=020] Converting 5 exposures from adu to count (= electron) units in IFU 21
+12:46:09 [ INFO  ] muse_basicproc_adu_to_count: [tid=019] Converting 5 exposures from adu to count (= electron) units in IFU 20
+12:46:09 [ INFO  ] muse_basicproc_adu_to_count: [tid=001] Converting 5 exposures from adu to count (= electron) units in IFU 2
+12:46:09 [ INFO  ] muse_basicproc_adu_to_count: [tid=021] Converting 5 exposures from adu to count (= electron) units in IFU 22
+12:46:10 [ INFO  ] muse_basicproc_adu_to_count: [tid=018] Converting 5 exposures from adu to count (= electron) units in IFU 19
+12:46:10 [ INFO  ] muse_basicproc_adu_to_count: [tid=022] Converting 5 exposures from adu to count (= electron) units in IFU 23
+12:46:10 [ INFO  ] muse_basicproc_adu_to_count: [tid=014] Converting 5 exposures from adu to count (= electron) units in IFU 15
+12:46:11 [ INFO  ] muse_basicproc_adu_to_count: [tid=023] Converting 5 exposures from adu to count (= electron) units in IFU 24
+12:46:11 [ INFO  ] muse_basicproc_adu_to_count: [tid=017] Converting 5 exposures from adu to count (= electron) units in IFU 18
+12:46:12 [ INFO  ] muse_basicproc_adu_to_count: [tid=012] Converting 5 exposures from adu to count (= electron) units in IFU 13
+12:46:12 [ INFO  ] muse_imagelist_scale_exptime: [tid=002] Scale all images to 1800.00s exposure time
+12:46:12 [ INFO  ] muse_basicproc_adu_to_count: [tid=015] Converting 5 exposures from adu to count (= electron) units in IFU 16
+12:46:12 [ INFO  ] muse_combine_images: [tid=002] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:13 [ INFO  ] muse_imagelist_scale_exptime: [tid=000] Scale all images to 1800.00s exposure time
+12:46:13 [ INFO  ] muse_imagelist_scale_exptime: [tid=004] Scale all images to 1800.00s exposure time
+12:46:13 [ INFO  ] muse_imagelist_scale_exptime: [tid=010] Scale all images to 1800.00s exposure time
+12:46:13 [ INFO  ] muse_imagelist_scale_exptime: [tid=009] Scale all images to 1800.00s exposure time
+12:46:13 [ INFO  ] muse_combine_images: [tid=000] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:13 [ INFO  ] muse_imagelist_scale_exptime: [tid=008] Scale all images to 1800.00s exposure time
+12:46:13 [ INFO  ] muse_combine_images: [tid=004] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:13 [ INFO  ] muse_combine_images: [tid=010] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:13 [ INFO  ] muse_combine_images: [tid=009] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:13 [ INFO  ] muse_combine_images: [tid=008] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:13 [ INFO  ] muse_imagelist_scale_exptime: [tid=007] Scale all images to 1800.00s exposure time
+12:46:14 [ INFO  ] muse_imagelist_scale_exptime: [tid=005] Scale all images to 1800.00s exposure time
+12:46:14 [ INFO  ] muse_combine_images: [tid=007] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:14 [ INFO  ] muse_combine_images: [tid=005] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:14 [ INFO  ] muse_imagelist_scale_exptime: [tid=006] Scale all images to 1800.00s exposure time
+12:46:15 [ INFO  ] muse_imagelist_scale_exptime: [tid=003] Scale all images to 1800.00s exposure time
+12:46:15 [ INFO  ] muse_combine_images: [tid=006] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:15 [ INFO  ] muse_imagelist_scale_exptime: [tid=011] Scale all images to 1800.00s exposure time
+12:46:15 [ INFO  ] muse_combine_images: [tid=003] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:15 [ INFO  ] muse_combine_images: [tid=011] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:16 [ INFO  ] muse_imagelist_scale_exptime: [tid=001] Scale all images to 1800.00s exposure time
+12:46:16 [ INFO  ] muse_imagelist_scale_exptime: [tid=016] Scale all images to 1800.00s exposure time
+12:46:16 [ INFO  ] muse_combine_images: [tid=001] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:16 [ INFO  ] muse_combine_images: [tid=016] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:17 [ INFO  ] muse_imagelist_scale_exptime: [tid=021] Scale all images to 1800.00s exposure time
+12:46:18 [ INFO  ] muse_combine_images: [tid=021] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:18 [ INFO  ] muse_imagelist_scale_exptime: [tid=019] Scale all images to 1800.00s exposure time
+12:46:18 [ INFO  ] muse_imagelist_scale_exptime: [tid=013] Scale all images to 1800.00s exposure time
+12:46:18 [ INFO  ] muse_combine_images: [tid=019] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:18 [ INFO  ] muse_combine_images: [tid=013] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:18 [ INFO  ] muse_imagelist_scale_exptime: [tid=022] Scale all images to 1800.00s exposure time
+12:46:18 [ INFO  ] muse_imagelist_scale_exptime: [tid=014] Scale all images to 1800.00s exposure time
+12:46:18 [ INFO  ] muse_imagelist_scale_exptime: [tid=018] Scale all images to 1800.00s exposure time
+12:46:18 [ INFO  ] muse_combine_images: [tid=022] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:18 [ INFO  ] muse_combine_images: [tid=014] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:18 [ INFO  ] muse_combine_images: [tid=018] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:18 [ INFO  ] muse_imagelist_scale_exptime: [tid=020] Scale all images to 1800.00s exposure time
+12:46:19 [ INFO  ] muse_combine_images: [tid=020] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:19 [ INFO  ] muse_imagelist_scale_exptime: [tid=017] Scale all images to 1800.00s exposure time
+12:46:19 [ INFO  ] muse_imagelist_scale_exptime: [tid=023] Scale all images to 1800.00s exposure time
+12:46:19 [ INFO  ] muse_combine_images: [tid=017] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:19 [ INFO  ] muse_combine_images: [tid=023] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:19 [ INFO  ] muse_imagelist_scale_exptime: [tid=015] Scale all images to 1800.00s exposure time
+12:46:19 [ INFO  ] muse_imagelist_scale_exptime: [tid=012] Scale all images to 1800.00s exposure time
+12:46:20 [ INFO  ] muse_combine_images: [tid=015] Combination method: average with sigma clipping (3.000000/3.000000)
+12:46:20 [ INFO  ] muse_combine_images: [tid=012] Combination method: average with sigma clipping (3.000000/3.000000)
+12:47:00 [ INFO  ] muse_quality_dark_badpix: [tid=002] 224 pixels lower than 0.000 sigma marked as dark
+12:47:00 [ INFO  ] muse_quality_dark_badpix: [tid=002] 3985 pixels higher than 5.000 sigma marked as hot
+12:47:00 [ INFO  ] muse_dark_compute: [tid=002] Normalize master dark image to 3600.000s
+12:47:01 [ INFO  ] muse_dark_qc_header: [tid=002] Dark current is 1.069+/-0.228 count/pix/h
+12:47:01 [ INFO  ] muse_processing_save_image: [tid=002] Saving image as MASTER_DARK-03.fits
+12:47:08 [ INFO  ] muse_quality_dark_badpix: [tid=001] 8 pixels lower than 0.000 sigma marked as dark
+12:47:08 [ INFO  ] muse_quality_dark_badpix: [tid=001] 1874 pixels higher than 5.000 sigma marked as hot
+12:47:08 [ INFO  ] muse_dark_compute: [tid=001] Normalize master dark image to 3600.000s
+12:47:08 [ INFO  ] muse_dark_qc_header: [tid=001] Dark current is 0.919+/-0.188 count/pix/h
+12:47:08 [ INFO  ] muse_processing_save_image: [tid=001] Saving image as MASTER_DARK-02.fits
+12:47:08 [ INFO  ] muse_quality_dark_badpix: [tid=003] 634 pixels lower than 0.000 sigma marked as dark
+12:47:08 [ INFO  ] muse_quality_dark_badpix: [tid=003] 4046 pixels higher than 5.000 sigma marked as hot
+12:47:08 [ INFO  ] muse_dark_compute: [tid=003] Normalize master dark image to 3600.000s
+12:47:09 [ INFO  ] muse_dark_qc_header: [tid=003] Dark current is 0.969+/-0.173 count/pix/h
+12:47:09 [ INFO  ] muse_processing_save_image: [tid=003] Saving image as MASTER_DARK-04.fits
+12:47:19 [ INFO  ] muse_quality_dark_badpix: [tid=004] 2416 pixels higher than 5.000 sigma marked as hot
+12:47:19 [ INFO  ] muse_dark_compute: [tid=004] Normalize master dark image to 3600.000s
+12:47:20 [ INFO  ] muse_dark_qc_header: [tid=004] Dark current is 0.891+/-0.147 count/pix/h
+12:47:20 [ INFO  ] muse_processing_save_image: [tid=004] Saving image as MASTER_DARK-05.fits
+12:47:21 [ INFO  ] muse_quality_dark_badpix: [tid=007] 55 pixels lower than 0.000 sigma marked as dark
+12:47:21 [ INFO  ] muse_quality_dark_badpix: [tid=007] 2267 pixels higher than 5.000 sigma marked as hot
+12:47:21 [ INFO  ] muse_dark_compute: [tid=007] Normalize master dark image to 3600.000s
+12:47:21 [ INFO  ] muse_quality_dark_badpix: [tid=000] 101 pixels lower than 0.000 sigma marked as dark
+12:47:21 [ INFO  ] muse_quality_dark_badpix: [tid=000] 2172 pixels higher than 5.000 sigma marked as hot
+12:47:21 [ INFO  ] muse_dark_compute: [tid=000] Normalize master dark image to 3600.000s
+12:47:21 [ INFO  ] muse_quality_dark_badpix: [tid=005] 121 pixels lower than 0.000 sigma marked as dark
+12:47:21 [ INFO  ] muse_quality_dark_badpix: [tid=005] 1734 pixels higher than 5.000 sigma marked as hot
+12:47:21 [ INFO  ] muse_dark_compute: [tid=005] Normalize master dark image to 3600.000s
+12:47:21 [ INFO  ] muse_dark_qc_header: [tid=007] Dark current is 1.093+/-0.312 count/pix/h
+12:47:21 [ INFO  ] muse_processing_save_image: [tid=007] Saving image as MASTER_DARK-08.fits
+12:47:21 [ INFO  ] muse_dark_qc_header: [tid=005] Dark current is 0.915+/-0.194 count/pix/h
+12:47:21 [ INFO  ] muse_quality_dark_badpix: [tid=006] 8 pixels lower than 0.000 sigma marked as dark
+12:47:21 [ INFO  ] muse_quality_dark_badpix: [tid=006] 8733 pixels higher than 5.000 sigma marked as hot
+12:47:21 [ INFO  ] muse_dark_compute: [tid=006] Normalize master dark image to 3600.000s
+12:47:21 [ INFO  ] muse_dark_qc_header: [tid=000] Dark current is 1.020+/-0.246 count/pix/h
+12:47:21 [ INFO  ] muse_processing_save_image: [tid=005] Saving image as MASTER_DARK-06.fits
+12:47:22 [ INFO  ] muse_processing_save_image: [tid=000] Saving image as MASTER_DARK-01.fits
+12:47:22 [ INFO  ] muse_dark_qc_header: [tid=006] Dark current is 0.973+/-0.231 count/pix/h
+12:47:22 [ INFO  ] muse_processing_save_image: [tid=006] Saving image as MASTER_DARK-07.fits
+12:47:22 [ INFO  ] muse_quality_dark_badpix: [tid=008] 73 pixels lower than 0.000 sigma marked as dark
+12:47:22 [ INFO  ] muse_quality_dark_badpix: [tid=008] 2938 pixels higher than 5.000 sigma marked as hot
+12:47:22 [ INFO  ] muse_dark_compute: [tid=008] Normalize master dark image to 3600.000s
+12:47:23 [ INFO  ] muse_dark_qc_header: [tid=008] Dark current is 0.672+/-0.165 count/pix/h
+12:47:23 [ INFO  ] muse_processing_save_image: [tid=008] Saving image as MASTER_DARK-09.fits
+12:47:23 [ INFO  ] muse_quality_dark_badpix: [tid=010] 85 pixels lower than 0.000 sigma marked as dark
+12:47:23 [ INFO  ] muse_quality_dark_badpix: [tid=010] 2350 pixels higher than 5.000 sigma marked as hot
+12:47:23 [ INFO  ] muse_dark_compute: [tid=010] Normalize master dark image to 3600.000s
+12:47:23 [ INFO  ] muse_quality_dark_badpix: [tid=009] 342 pixels lower than 0.000 sigma marked as dark
+12:47:23 [ INFO  ] muse_quality_dark_badpix: [tid=009] 2619 pixels higher than 5.000 sigma marked as hot
+12:47:23 [ INFO  ] muse_dark_compute: [tid=009] Normalize master dark image to 3600.000s
+12:47:24 [ INFO  ] muse_dark_qc_header: [tid=010] Dark current is 0.818+/-0.184 count/pix/h
+12:47:24 [ INFO  ] muse_dark_qc_header: [tid=009] Dark current is 1.038+/-0.248 count/pix/h
+12:47:24 [ INFO  ] muse_processing_save_image: [tid=010] Saving image as MASTER_DARK-11.fits
+12:47:24 [ INFO  ] muse_processing_save_image: [tid=009] Saving image as MASTER_DARK-10.fits
+12:47:25 [ INFO  ] muse_quality_dark_badpix: [tid=011] 162 pixels lower than 0.000 sigma marked as dark
+12:47:25 [ INFO  ] muse_quality_dark_badpix: [tid=011] 3355 pixels higher than 5.000 sigma marked as hot
+12:47:25 [ INFO  ] muse_dark_compute: [tid=011] Normalize master dark image to 3600.000s
+12:47:25 [ INFO  ] muse_dark_qc_header: [tid=011] Dark current is 0.933+/-0.268 count/pix/h
+12:47:26 [ INFO  ] muse_processing_save_image: [tid=011] Saving image as MASTER_DARK-12.fits
+12:47:27 [ INFO  ] muse_quality_dark_badpix: [tid=013] 158 pixels lower than 0.000 sigma marked as dark
+12:47:27 [ INFO  ] muse_quality_dark_badpix: [tid=013] 2045 pixels higher than 5.000 sigma marked as hot
+12:47:27 [ INFO  ] muse_dark_compute: [tid=013] Normalize master dark image to 3600.000s
+12:47:27 [ INFO  ] muse_quality_dark_badpix: [tid=014] 340 pixels lower than 0.000 sigma marked as dark
+12:47:27 [ INFO  ] muse_quality_dark_badpix: [tid=014] 3148 pixels higher than 5.000 sigma marked as hot
+12:47:27 [ INFO  ] muse_dark_compute: [tid=014] Normalize master dark image to 3600.000s
+12:47:27 [ INFO  ] muse_dark_qc_header: [tid=013] Dark current is 0.988+/-0.229 count/pix/h
+12:47:27 [ INFO  ] muse_processing_save_image: [tid=013] Saving image as MASTER_DARK-14.fits
+12:47:28 [ INFO  ] muse_dark_qc_header: [tid=014] Dark current is 1.094+/-0.249 count/pix/h
+12:47:28 [ INFO  ] muse_processing_save_image: [tid=014] Saving image as MASTER_DARK-15.fits
+12:47:28 [ INFO  ] muse_quality_dark_badpix: [tid=015] 2451 pixels higher than 5.000 sigma marked as hot
+12:47:28 [ INFO  ] muse_dark_compute: [tid=015] Normalize master dark image to 3600.000s
+12:47:29 [ INFO  ] muse_dark_qc_header: [tid=015] Dark current is 0.890+/-0.158 count/pix/h
+12:47:29 [ INFO  ] muse_processing_save_image: [tid=015] Saving image as MASTER_DARK-16.fits
+12:47:31 [ INFO  ] muse_quality_dark_badpix: [tid=016] 354 pixels lower than 0.000 sigma marked as dark
+12:47:31 [ INFO  ] muse_quality_dark_badpix: [tid=016] 6491 pixels higher than 5.000 sigma marked as hot
+12:47:31 [ INFO  ] muse_dark_compute: [tid=016] Normalize master dark image to 3600.000s
+12:47:32 [ INFO  ] muse_dark_qc_header: [tid=016] Dark current is 1.076+/-0.218 count/pix/h
+12:47:32 [ INFO  ] muse_processing_save_image: [tid=016] Saving image as MASTER_DARK-17.fits
+12:47:32 [ INFO  ] muse_quality_dark_badpix: [tid=019] 48 pixels lower than 0.000 sigma marked as dark
+12:47:32 [ INFO  ] muse_quality_dark_badpix: [tid=019] 1834 pixels higher than 5.000 sigma marked as hot
+12:47:32 [ INFO  ] muse_dark_compute: [tid=019] Normalize master dark image to 3600.000s
+12:47:32 [ INFO  ] muse_dark_qc_header: [tid=019] Dark current is 0.947+/-0.197 count/pix/h
+12:47:32 [ INFO  ] muse_processing_save_image: [tid=019] Saving image as MASTER_DARK-20.fits
+12:47:33 [ INFO  ] muse_quality_dark_badpix: [tid=018] 327 pixels lower than 0.000 sigma marked as dark
+12:47:33 [ INFO  ] muse_quality_dark_badpix: [tid=018] 2590 pixels higher than 5.000 sigma marked as hot
+12:47:33 [ INFO  ] muse_dark_compute: [tid=018] Normalize master dark image to 3600.000s
+12:47:33 [ INFO  ] muse_quality_dark_badpix: [tid=017] 55 pixels lower than 0.000 sigma marked as dark
+12:47:33 [ INFO  ] muse_quality_dark_badpix: [tid=017] 2651 pixels higher than 5.000 sigma marked as hot
+12:47:33 [ INFO  ] muse_dark_compute: [tid=017] Normalize master dark image to 3600.000s
+12:47:33 [ INFO  ] muse_dark_qc_header: [tid=018] Dark current is 0.865+/-0.161 count/pix/h
+12:47:33 [ INFO  ] muse_processing_save_image: [tid=018] Saving image as MASTER_DARK-19.fits
+12:47:33 [ INFO  ] muse_dark_qc_header: [tid=017] Dark current is 0.877+/-0.168 count/pix/h
+12:47:34 [ INFO  ] muse_processing_save_image: [tid=017] Saving image as MASTER_DARK-18.fits
+12:47:34 [ INFO  ] muse_quality_dark_badpix: [tid=020] 167 pixels lower than 0.000 sigma marked as dark
+12:47:34 [ INFO  ] muse_quality_dark_badpix: [tid=020] 5297 pixels higher than 5.000 sigma marked as hot
+12:47:34 [ INFO  ] muse_dark_compute: [tid=020] Normalize master dark image to 3600.000s
+12:47:34 [ INFO  ] muse_quality_dark_badpix: [tid=021] 152 pixels lower than 0.000 sigma marked as dark
+12:47:34 [ INFO  ] muse_quality_dark_badpix: [tid=021] 4419 pixels higher than 5.000 sigma marked as hot
+12:47:34 [ INFO  ] muse_dark_compute: [tid=021] Normalize master dark image to 3600.000s
+12:47:34 [ INFO  ] muse_quality_dark_badpix: [tid=012] 128 pixels lower than 0.000 sigma marked as dark
+12:47:34 [ INFO  ] muse_quality_dark_badpix: [tid=012] 1406 pixels higher than 5.000 sigma marked as hot
+12:47:34 [ INFO  ] muse_dark_compute: [tid=012] Normalize master dark image to 3600.000s
+12:47:34 [ INFO  ] muse_quality_dark_badpix: [tid=022] 101 pixels lower than 0.000 sigma marked as dark
+12:47:34 [ INFO  ] muse_quality_dark_badpix: [tid=022] 3658 pixels higher than 5.000 sigma marked as hot
+12:47:34 [ INFO  ] muse_dark_compute: [tid=022] Normalize master dark image to 3600.000s
+12:47:34 [ INFO  ] muse_quality_dark_badpix: [tid=023] 211 pixels lower than 0.000 sigma marked as dark
+12:47:34 [ INFO  ] muse_quality_dark_badpix: [tid=023] 1761 pixels higher than 5.000 sigma marked as hot
+12:47:34 [ INFO  ] muse_dark_compute: [tid=023] Normalize master dark image to 3600.000s
+12:47:34 [ INFO  ] muse_dark_qc_header: [tid=020] Dark current is 0.951+/-0.184 count/pix/h
+12:47:35 [ INFO  ] muse_processing_save_image: [tid=020] Saving image as MASTER_DARK-21.fits
+12:47:35 [ INFO  ] muse_dark_qc_header: [tid=021] Dark current is 1.007+/-0.199 count/pix/h
+12:47:35 [ INFO  ] muse_processing_save_image: [tid=021] Saving image as MASTER_DARK-22.fits
+12:47:35 [ INFO  ] muse_dark_qc_header: [tid=012] Dark current is 0.857+/-0.221 count/pix/h
+12:47:35 [ INFO  ] muse_processing_save_image: [tid=012] Saving image as MASTER_DARK-13.fits
+12:47:35 [ INFO  ] muse_dark_qc_header: [tid=022] Dark current is 0.956+/-0.160 count/pix/h
+12:47:35 [ INFO  ] muse_processing_save_image: [tid=022] Saving image as MASTER_DARK-23.fits
+12:47:35 [ INFO  ] muse_dark_qc_header: [tid=023] Dark current is 0.943+/-0.309 count/pix/h
+12:47:35 [ INFO  ] muse_processing_save_image: [tid=023] Saving image as MASTER_DARK-24.fits
+12:47:48 [ INFO  ] : [tid=000] Calculating product checksums
+12:48:00 [ INFO  ] : [tid=000] Created product /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_DARK.fits
+12:48:00 [ INFO  ] : [tid=000] 1 product created
+12:48:00 [ INFO  ] : [tid=000] Recipe operation(s) took            132 seconds to complete.
+12:48:00 [ INFO  ] : [tid=000] Total size of 5 raw input frames  =  4300.00 MB
+
+12:48:00 [ INFO  ] : [tid=000] => processing rate of    32.53 MB/sec 
+

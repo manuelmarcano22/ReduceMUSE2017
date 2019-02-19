@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SLF
+#STD standard
 
 
 #Souce Params file with enviroment variables
@@ -9,14 +9,14 @@ source $scripts/config/params
 
 
 #Create bias sof with python
-python3 createlsfsof.py
+python3 createstandardsof.py
 
 #Change to data location
 cd $DATA_LOCATION
 
 #Variables
-recipe=muse_lsf
-filesof=lsf.sof
-logfile=lsf.log
+recipe=muse_standard
+filesof=standard.sof
+logfile=standard.log
 
 likwid-pin -c 0-23 esorex --recipe-config=$RECIPE_CONFIG/$recipe'.rc' --log-file=$logfile  $recipe $SOF_LOCATION$filesof
