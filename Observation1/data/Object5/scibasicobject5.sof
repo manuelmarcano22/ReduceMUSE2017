@@ -1,0 +1,17 @@
+#/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-03T05:55:26.178.fits	OBJECT
+#/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-03T06:01:42.178.fits	OBJECT
+#/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-03T06:08:38.181.fits	OBJECT
+#/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-03T06:14:54.177.fits	OBJECT
+/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-03T06:21:48.177.fits	OBJECT
+#/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-03T06:28:03.182.fits	OBJECT
+#/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-03T06:34:56.177.fits	OBJECT
+#/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-03T06:41:12.177.fits	OBJECT
+/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/MUSE.2017-06-01T21:41:33.125.fits	ILLUM
+/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_BIAS.fits	MASTER_BIAS
+/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_DARK.fits	MASTER_DARK
+/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/MASTER_FLAT.fits	MASTER_FLAT
+/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/TRACE_TABLE.fits	TRACE_TABLE
+/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/WAVECAL_TABLE.fits	WAVECAL_TABLE
+/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2017-05-02T10:33:34.610.fits	GEOMETRY_TABLE
+/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2015-06-24T08:20:55.820.fits	BADPIX_TABLE
+/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/TWILIGHT_CUBE.fits	TWILIGHT_CUBE

@@ -17,3 +17,6 @@ Install likwid and had this same proble https://github.com/RRZE-HPC/likwid/issue
 And change group and where to intall
 
  Already have Astrometry wcs 
+
+
+

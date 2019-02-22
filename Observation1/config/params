@@ -23,3 +23,18 @@ export SOF_LOCATION=$ESOREX_OUTPUT_DIR/sof/
 
 #CAL Files
 export CAL_LOCATION=$ESOREX_OUTPUT_DIR/cal
+
+#Function whre $1 is line to comment and $2 file to comment $3 file to safe
+commentline () {
+sed  "$1"' s/^/#/' "$2" > $3
+}
+
+#Function whre $1 is line to comment and $2 file to comment $3 file to safe
+uncommentlineinplace () {
+sed  -i "$1"'s/^#//' "$2" 
+}
+
+
+
+
+
