@@ -7,3 +7,11 @@ ignore all the fits files and tile compressed fits.
 
 #Ignore the pdf documents from ESO webpage
 ESO*
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
