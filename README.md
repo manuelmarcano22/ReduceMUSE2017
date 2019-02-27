@@ -5,7 +5,12 @@
 
 WFM NGC6397 1
 
+8 object
+
+
 # Observation 2
+
+I think four exposures. And two each with different exposure time. Can I combine them?
 
 # Hubble data and star caraglo
 

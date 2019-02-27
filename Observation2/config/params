@@ -1,12 +1,12 @@
 #!/usr/bin/bash
 
 #ESOREX
-export ESOREX_OUTPUT_DIR=/mnt/data/MUSE/2014-07-28
+export ESOREX_OUTPUT_DIR=/home/mmarcano/Documents/ReduceMUSE2017/Observation2/data
 export ESOREX_LOG_DIR=$ESOREX_OUTPUT_DIR/logs
-export ESOREX_CONFIG=/home/detoeuf/Manuel/scripts/2014-07-28/config/esorex.rc
+export ESOREX_CONFIG=/home/mmarcano/Documents/ReduceMUSE2017/Observation2/config/esorex.rc
 
 #Recipecongif files
-export RECIPE_CONFIG=/home/detoeuf/Manuel/scripts/2014-07-28/config
+export RECIPE_CONFIG=/home/mmarcano/Documents/ReduceMUSE2017/Observation2/config
 
 #Calibration files
 export CALIB_FILES=$ESOREX_OUTPUT_DIR/cal
@@ -15,4 +15,31 @@ export CALIB_FILES=$ESOREX_OUTPUT_DIR/cal
 export OMP_NUM_THREADS=24
 
 #Data Location
-export DATA_LOCATION=$ESOREX_OUTPUT_DIR
+export DATA_LOCATION=$ESOREX_OUTPUT_DIR/data_with_raw_calibs
+
+#SOF location
+export SOF_LOCATION=$ESOREX_OUTPUT_DIR/sof/
+
+
+#CAL Files
+export CAL_LOCATION=$ESOREX_OUTPUT_DIR/cal
+
+#Function whre $1 is line to comment and $2 file to comment $3 file to safe
+commentline () {
+sed  "$1"' s/^/#/' "$2" > $3
+}
+
+#Function whre $1 is line to comment and $2 file to comment $3 file to safe
+uncommentlineinplace () {
+sed  -i "$1"'s/^#//' "$2" 
+}
+
+#First one is pid of process, the other is file to save too, and third is every how many seconds
+#First column is in kB
+getmemoryusage () {
+    touch $2
+    echo $1
+    while kill -0 "$1" >/dev/null 2>&1; do
+        cat /proc/$1/status | grep VmSize | grep -o -E '[0-9]+' >> $2 ;sleep $3's' ; 
+    done
+}

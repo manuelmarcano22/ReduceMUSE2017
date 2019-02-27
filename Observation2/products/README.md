@@ -1,3 +1,0 @@
-# Home of the SOF
-
-

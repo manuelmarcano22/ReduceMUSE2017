@@ -1,8 +1,8 @@
-# File: /home/detoeuf/Manuel/scripts/2014-07-28/esorex2014-07-27.rc
+# File: 
 #
-# Date: 08-Feb-2016 
+# Date: 08-Feb-2019
 #
-#Note: For the data of 2014-07-28
+#Note: For the Observation 1 data.
 
 # ESOREX
 
@@ -46,7 +46,7 @@ esorex.caller.mem-check=TRUE
 # as well. Multiple directory heads may be specified, by separating the
 # starting paths with colons (:). This option may also be set using the
 # environment variable ESOREX_PLUGIN_DIR.
-esorex.caller.recipe-dir=/home/detoeuf/muse1.2.1/lib/esopipes-plugins/muse-1.2.1
+#esorex.caller.recipe-dir=/home/detoeuf/muse1.2.1/lib/esopipes-plugins/muse-1.2.1
 #Old
 #esorex.caller.recipe-dir=/opt/reflex/install/lib/esopipes-plugins/muse-1.0.1
 
