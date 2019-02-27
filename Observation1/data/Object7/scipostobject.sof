@@ -25,7 +25,7 @@
 /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2014-06-13T10:15:21.400.fits	EXTINCT_TABLE
 /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/STD_RESPONSE_0001.fits	STD_RESPONSE
 /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/STD_TELLURIC_0001.fits	STD_TELLURIC
-/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2017-05-02T10:34:11.986.fits	ASTROMETRY_WCS
+/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/astrometry_wcs_wfm.fits	ASTROMETRY_WCS
 /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2017-10-25T09:52:41.440.fits	LSF_PROFILE
 /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2017-01-04T12:56:22.356.fits	LSF_PROFILE
 /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/LSF_PROFILE.fits	LSF_PROFILE
