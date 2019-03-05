@@ -2,4 +2,8 @@
 
 ## Hubble F606 observation:
 
+### Steps to fixed Astrometry on Hubble
+
+The catalog with more stars in the center to identify was Gaia
+
 

@@ -1,0 +1,38 @@
+# Refsystem: j2000  Coordinates: equatorial FK5
+#     Equinox: J2000.000 Epoch: J2000.00000000 MJD: 51544.50000
+# Insystem: j2000  Coordinates: equatorial FK5
+#     Equinox: J2000.000 Epoch: J2000.00000000 MJD: 51544.50000
+
+# Coords File: liststars.txt  Image: hubblef606wimg.fits
+#     Database: coord.db  Solution: hubblef606wimg.fits
+# Coordinate mapping status
+#     XI fit ok.  ETA fit ok.
+#     Ra/Dec or Long/Lat fit rms: 0.305  1.67   (arcsec  arcsec)
+# Coordinate mapping parameters
+#     Sky projection geometry: tan
+#     Reference point: 265:10:20.94  -53:40:25.56  (degrees  degrees)
+#     Reference point: 2973.997  3003.993  (pixels  pixels)
+#     X and Y scale: 0.050  0.054  (arcsec/pixel  arcsec/pixel)
+#     X and Y axis rotation: 184.991  1.304  (degrees  degrees)
+# Wcs mapping status
+#     Ra/Dec or Long/Lat wcs rms: 0.305  1.67   (arcsec  arcsec)
+# Updating image header wcs
+
+
+# Input Coordinate Listing
+#     Column 1: X (pixels)
+#     Column 2: Y (pixels)
+#     Column 3: Ra / Longitude (degrees)
+#     Column 4: Dec / Latitude (degrees)
+#     Column 5: Fitted Ra / Longitude (degrees)
+#     Column 6: Fitted Dec / Latitude (degrees)
+#     Column 7: Residual Ra / Longitude (arcseconds)
+#     Column 8: Residual Dec / Latitude (arcseconds)
+
+  2970.000   2805.000  265:10:21.41 -53:40:34.63  265:10:20.86 -53:40:36.38   0.553  1.748
+  2954.300   2895.780  265:10:21.41 -53:40:34.63  265:10:22.37 -53:40:31.52  -0.961 -3.111
+  3005.880   3006.180  265:10:18.43 -53:40:24.57  265:10:18.25 -53:40:25.30   0.175  0.729
+  3011.600   3150.000  265:10:18.01 -53:40:17.43  265:10:18.07 -53:40:17.47  -0.060  0.040
+  2884.300   3039.000  265:10:28.83 -53:40:23.26  265:10:28.58 -53:40:24.05   0.246  0.787
+  3017.900   3128.000  265:10:17.54 -53:40:18.83  265:10:17.49 -53:40:18.64   0.047 -0.192
+

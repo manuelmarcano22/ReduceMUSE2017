@@ -1,0 +1,24 @@
+# Region file format: DS9 version 4.1
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+point(17:40:41.0854,-53:40:26.781) # point=circle tag={catgaia}
+point(17:40:40.9417,-53:40:25.072) # point=circle tag={catgaia}
+point(17:40:41.5188,-53:40:30.147) # point=circle tag={catgaia}
+point(17:40:41.5095,-53:40:28.943) # point=circle tag={catgaia}
+point(17:40:41.2283,-53:40:24.572) # point=circle tag={catgaia}
+point(17:40:41.1427,-53:40:25.333) # point=circle tag={catgaia}
+point(17:40:40.8069,-53:40:25.255) # point=circle tag={catgaia}
+point(17:40:40.9557,-53:40:23.495) # point=circle tag={catgaia}
+point(17:40:41.1769,-53:40:32.631) # point=circle tag={catgaia}
+point(17:40:41.4731,-53:40:31.566) # point=circle tag={catgaia}
+point(17:40:40.8823,-53:40:28.301) # point=circle tag={catgaia}
+point(17:40:40.6760,-53:40:27.585) # point=circle tag={catgaia}
+point(17:40:41.4159,-53:40:28.094) # point=circle tag={catgaia}
+point(17:40:41.6724,-53:40:26.876) # point=circle tag={catgaia}
+point(17:40:41.4339,-53:40:25.619) # point=circle tag={catgaia}
+point(17:40:41.6890,-53:40:25.712) # point=circle tag={catgaia}
+point(17:40:41.7055,-53:40:29.987) # point=circle tag={catgaia}
+point(17:40:41.4262,-53:40:23.772) # point=circle tag={catgaia}
+point(17:40:40.7446,-53:40:28.397) # point=circle tag={catgaia}
+point(17:40:40.7755,-53:40:29.605) # point=circle tag={catgaia}
+point(17:40:41.0784,-53:40:30.624) # point=circle tag={catgaia}
