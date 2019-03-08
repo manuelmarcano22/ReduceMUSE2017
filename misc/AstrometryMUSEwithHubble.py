@@ -15,5 +15,4 @@ imahst = Image('firstdraftwcsfixedicrshubblef606wimg.fits')
 cont = Image('CousingI.fits')
 ima2hst = cont.adjust_coordinates(imahst)
 
-ima2hst.info()
-
+ima2hst.write('FixedMUSEFOV.fits')
