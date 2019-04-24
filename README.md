@@ -20,3 +20,4 @@ https://archive.stsci.edu/prepds/acsggct/
 
 The huble image witha  bettear astrometry and list of all stars
 
+#  The MAVERIC Survey: A Transitional Millisecond Pulsar Candidate in Terzan 5 
