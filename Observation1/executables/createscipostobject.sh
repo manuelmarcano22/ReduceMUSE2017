@@ -36,6 +36,12 @@ for numob in Object*; do
     #commentline 1,$numberobject $SOF_LOCATION$filesof scibasicobject$numob'.sof'
     #uncommentlineinplace $numob scibasicobject$numob'.sof'
     
+#Add the skythings
+
+    echo -e $(pwd)'/SKY_CONTINUUM.fits\tSKY_CONTINUUM\n' >> $filesof
+    echo -e $(pwd)'/SKY_LINES.fits\tSKY_LINES\n' >> $filesof
+    echo -e $(pwd)'/SKY_MASK.fits\tSKY_MASK\n' >> $filesof
+
     #Excecute scibasic. For this has to change exorex outpuit dir
     ESOREX_OUTPUT_DIR=$(pwd)
     likwid-pin -c 0-23 esorex --recipe-config=$RECIPE_CONFIG/$recipe'.rc' --log-file=$logfile  $recipe $filesof

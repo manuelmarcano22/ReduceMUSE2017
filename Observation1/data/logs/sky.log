@@ -1,0 +1,64 @@
+
+Start time     : 2019-04-25T00:11:58
+Program name   : esorex
+Severity level : [ INFO  ] 
+
+00:11:58 [ INFO  ] : [tid=000] This is EsoRex, version 3.13.1
+00:11:58 [ INFO  ] : [tid=000] using the libraries: CPL = 7.1, CFITSIO = 3.36, WCSLIB = 4.24, FFTW (normal precision) = 3.3.4-sse2, FFTW (single precision) = 3.3.4-sse2, CPL FLOP counting is unavailable, enable with -DCPL_ADD_FLOPS, OPENMP = 200805
+00:11:58 [ INFO  ] : [tid=000] Invocation command line was: esorex --recipe-config=/home/mmarcano/Documents/ReduceMUSE2017/Observation1/config/muse_create_sky.rc --log-file=sky.log muse_create_sky sky.sof
+00:11:58 [ INFO  ] muse_processing_recipeinfo: [tid=000] MUSE Instrument Pipeline v2.6
+00:11:59 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-01.fits" (image format)
+00:12:11 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-02.fits" (image format)
+00:12:20 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-03.fits" (image format)
+00:12:39 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-04.fits" (image format)
+00:12:48 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-05.fits" (image format)
+00:13:05 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-06.fits" (image format)
+00:13:16 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-07.fits" (image format)
+00:13:28 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-08.fits" (image format)
+00:13:39 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-09.fits" (image format)
+00:13:49 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-10.fits" (image format)
+00:13:59 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-11.fits" (image format)
+00:14:14 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-12.fits" (image format)
+00:14:24 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-13.fits" (image format)
+00:14:37 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-14.fits" (image format)
+00:14:52 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-15.fits" (image format)
+00:15:02 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-16.fits" (image format)
+00:15:11 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-17.fits" (image format)
+00:15:22 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-18.fits" (image format)
+00:15:32 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-19.fits" (image format)
+00:15:41 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-20.fits" (image format)
+00:15:50 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-21.fits" (image format)
+00:16:04 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-22.fits" (image format)
+00:16:13 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-23.fits" (image format)
+00:16:24 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/PIXTABLE_OBJECT_0001-24.fits" (image format)
+00:16:37 [ INFO  ] muse_utils_spectrum_smooth: [tid=000] Smoothing flat-field spectrum with piecewise polynomial, plus running average
+00:17:01 [ INFO  ] muse_table_load: [tid=000] Loaded table from file "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/STD_RESPONSE_0001.fits" (ext 1).
+00:17:01 [ INFO  ] muse_table_load: [tid=000] Loaded table from file "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/STD_TELLURIC_0001.fits" (ext 1).
+00:17:01 [ INFO  ] muse_table_load: [tid=000] Loaded table from file "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2014-06-13T10:15:21.400.fits" (ext 1).
+00:17:01 [ INFO  ] muse_flux_calibrate: [tid=000] Starting flux calibration (exptime=305.00s, airmass=1.1759), with telluric correction
+00:17:36 [ INFO  ] muse_dar_correct: [tid=000] DAR for T=11.63 degC, fp=0.811 mmHg, P=557.3 mmHg, at airmass=1.1759, using ref. wavelength 0.700000 um (Filippenko)
+00:17:38 [ INFO  ] muse_resampling_cube: [tid=000] Output cube size 317 x 306 x 3681 (fit to data)
+00:17:53 [ INFO  ] muse_resampling_cube: [tid=000] Using median statistics (15.000 sigma level) for cosmic-ray rejection
+00:18:54 [ INFO  ] muse_resampling_cube: [tid=000] Starting resampling, using method "drizzle" (pixfrac f=0.600,0.600,0.600, loop distance ld=1)
+00:19:20 [ INFO  ] muse_processing_save_image: [tid=000] Saving image as SKY_IMAGE.fits
+00:19:20 [ INFO  ] muse_sky_create_skymask: [tid=000] Creating sky mask for pixels between minimum (105.027) and threshold (106.373)
+00:19:20 [ INFO  ] muse_processing_save_mask: [tid=000] Saving mask as SKY_MASK.fits
+00:19:33 [ INFO  ] muse_processing_save_table: [tid=000] Saving table as "SKY_SPECTRUM.fits"
+00:19:33 [ INFO  ] muse_sky_lines_load: [tid=000] Loaded sky lines from "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2014-12-08T12:30:51.293.fits"
+00:19:33 [ INFO  ] muse_sky_continuum_load: [tid=000] Loaded sky continuum from "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/Object8/SKY_CONTINUUM_zero.fits"
+00:19:35 [ INFO  ] muse_lsf_cube_load_all: [tid=000] Successfully loaded all 24 LSF_PROFILEs (cube format).
+00:19:35 [ INFO  ] muse_create_sky_compute: [tid=000] Creating master sky spectrum using fits to lines (fluxes) and residual continuum
+00:19:35 [ INFO  ] muse_sky_lines_fit: [tid=000] Starting sky line fit
+00:20:45 [ INFO  ] muse_sky_lines_fit: [tid=000] Sky line fit finished successfully. Offset -0.032 A (at 4746 A) ... 0.050 A (at 9355 A)
+00:20:45 [ INFO  ] : [tid=000] Calculating product checksums
+00:20:45 [ INFO  ] : [tid=000] Created product SKY_CONTINUUM.fits (in place)
+00:20:45 [ INFO  ] : [tid=000] Created product SKY_IMAGE.fits (in place)
+00:20:45 [ INFO  ] : [tid=000] Created product SKY_LINES.fits (in place)
+00:20:45 [ INFO  ] : [tid=000] Created product SKY_MASK.fits (in place)
+00:20:45 [ INFO  ] : [tid=000] Created product SKY_SPECTRUM.fits (in place)
+00:20:45 [ INFO  ] : [tid=000] 5 products created
+00:20:45 [ INFO  ] : [tid=000] Recipe operation(s) took            527 seconds to complete.
+00:20:45 [ INFO  ] : [tid=000] Total size of 24 raw input frames  =  9073.43 MB
+
+00:20:45 [ INFO  ] : [tid=000] => processing rate of    17.22 MB/sec 
+

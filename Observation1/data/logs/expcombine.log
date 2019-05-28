@@ -1,60 +1,60 @@
 
-Start time     : 2019-02-26T17:36:06
+Start time     : 2019-04-25T17:19:07
 Program name   : esorex
 Severity level : [ INFO  ] 
 
-17:36:06 [ INFO  ] : [tid=000] This is EsoRex, version 3.13.1
-17:36:06 [ INFO  ] : [tid=000] using the libraries: CPL = 7.1, CFITSIO = 3.36, WCSLIB = 4.24, FFTW (normal precision) = 3.3.4-sse2, FFTW (single precision) = 3.3.4-sse2, CPL FLOP counting is unavailable, enable with -DCPL_ADD_FLOPS, OPENMP = 200805
-17:36:06 [ INFO  ] : [tid=000] Invocation command line was: esorex --recipe-config=/home/mmarcano/Documents/ReduceMUSE2017/Observation1/config/muse_exp_combine.rc --log-file=expcombine.log muse_exp_combine /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/sof/expcombine.sof
-17:36:06 [ INFO  ] muse_processing_recipeinfo: [tid=000] MUSE Instrument Pipeline v2.6
-17:36:06 [ INFO  ] muse_table_load: [tid=000] Loaded table from file "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/OFFSET_LIST.fits" (ext 1).
-17:36:06 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object1.fits" (image format)
-17:38:00 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object2.fits" (image format)
-17:39:30 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object3.fits" (image format)
-17:41:31 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object4.fits" (image format)
-17:43:13 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object5.fits" (image format)
-17:44:48 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object6.fits" (image format)
-17:46:43 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object7.fits" (image format)
-17:48:13 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object8.fits" (image format)
-17:49:41 [ INFO  ] muse_xcombine_weights: [tid=000] 8 tables to be weighted using EXPTIME.
-17:53:12 [ INFO  ] muse_xcombine_tables: [tid=000] 8 tables to be combined
-17:53:12 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.176017/-53.670520 deg
-17:53:17 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.176016/-53.670519 deg
-17:53:23 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 2 (relative to exp. 1): -0.0,0.0 arcsec (corrected offset)
-17:56:53 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.176271/-53.670412 deg
-17:56:59 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 3 (relative to exp. 1): 0.5,0.4 arcsec (corrected offset)
-18:02:21 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.176273/-53.670412 deg
-18:02:27 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 4 (relative to exp. 1): 0.5,0.4 arcsec (corrected offset)
-18:05:33 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.175802/-53.670709 deg
-18:05:39 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 5 (relative to exp. 1): -0.5,-0.7 arcsec (corrected offset)
-18:09:41 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.175801/-53.670710 deg
-18:09:46 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 6 (relative to exp. 1): -0.5,-0.7 arcsec (corrected offset)
-18:14:16 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.175580/-53.670885 deg
-18:14:21 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 7 (relative to exp. 1): -0.9,-1.3 arcsec (corrected offset)
-18:19:34 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.175582/-53.670887 deg
-18:19:40 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 8 (relative to exp. 1): -0.9,-1.3 arcsec (corrected offset)
-18:23:50 [ INFO  ] muse_postproc_cube_resample_and_collapse: [tid=000] Resampling to final cube follows, output format "FITS cube"
-18:23:50 [ INFO  ] muse_resampling_cube: [tid=000]   Output cube size 319 x 326 x 3682 (fit to data)
-18:28:18 [ INFO  ] muse_resampling_cube: [tid=000]   Using median statistics (10.000 sigma level) for cosmic-ray rejection
-18:30:43 [ INFO  ] muse_resampling_cube: [tid=000]   Starting resampling, using method "drizzle" (pixfrac f=0.600,0.600,0.600, loop distance ld=1)
-18:35:21 [ INFO  ] muse_postproc_qc_fwhm: [tid=000] Computed FWHM QC parameters for 71 of 74 sources found down to the 5.0 sigma threshold on plane 1842
-18:35:23 [ INFO  ] muse_processing_save_image: [tid=000] Saving image as IMAGE_FOV_0001.fits
-18:35:24 [ INFO  ] muse_table_load_filter: [tid=000] loaded filter "Johnson_V" from file "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2014-06-13T10:14:59.795.fits" (ext 2)
-18:35:25 [ INFO  ] muse_processing_save_image: [tid=000] Saving image as IMAGE_FOV_0002.fits
-18:35:25 [ INFO  ] muse_table_load_filter: [tid=000] loaded filter "Cousins_R" from file "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2014-06-13T10:14:59.795.fits" (ext 3)
-18:35:27 [ INFO  ] muse_processing_save_image: [tid=000] Saving image as IMAGE_FOV_0003.fits
-18:35:27 [ INFO  ] muse_table_load_filter: [tid=000] loaded filter "Cousins_I" from file "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2014-06-13T10:14:59.795.fits" (ext 4)
-18:35:28 [ INFO  ] muse_processing_save_image: [tid=000] Saving image as IMAGE_FOV_0004.fits
-18:36:39 [ INFO  ] muse_processing_save_cube: [tid=000] Saving FITS cube as "DATACUBE_FINAL.fits"
-18:36:50 [ INFO  ] : [tid=000] Calculating product checksums
-18:36:57 [ INFO  ] : [tid=000] Created product DATACUBE_FINAL.fits (in place)
-18:36:57 [ INFO  ] : [tid=000] Created product IMAGE_FOV_0001.fits (in place)
-18:36:57 [ INFO  ] : [tid=000] Created product IMAGE_FOV_0002.fits (in place)
-18:36:57 [ INFO  ] : [tid=000] Created product IMAGE_FOV_0003.fits (in place)
-18:36:57 [ INFO  ] : [tid=000] Created product IMAGE_FOV_0004.fits (in place)
-18:36:57 [ INFO  ] : [tid=000] 5 products created
-18:36:57 [ INFO  ] : [tid=000] Recipe operation(s) took       3.65e+03 seconds to complete.
-18:36:57 [ INFO  ] : [tid=000] Total size of 8 raw input frames  = 72553.12 MB
+17:19:07 [ INFO  ] : [tid=000] This is EsoRex, version 3.13.1
+17:19:07 [ INFO  ] : [tid=000] using the libraries: CPL = 7.1, CFITSIO = 3.36, WCSLIB = 4.24, FFTW (normal precision) = 3.3.4-sse2, FFTW (single precision) = 3.3.4-sse2, CPL FLOP counting is unavailable, enable with -DCPL_ADD_FLOPS, OPENMP = 200805
+17:19:07 [ INFO  ] : [tid=000] Invocation command line was: esorex --recipe-config=/home/mmarcano/Documents/ReduceMUSE2017/Observation1/config/muse_exp_combine.rc --log-file=expcombine.log muse_exp_combine /home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/sof/expcombine.sof
+17:19:07 [ INFO  ] muse_processing_recipeinfo: [tid=000] MUSE Instrument Pipeline v2.6
+17:19:07 [ INFO  ] muse_table_load: [tid=000] Loaded table from file "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/OFFSET_LIST.fits" (ext 1).
+17:19:07 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object1.fits" (image format)
+17:20:22 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object2.fits" (image format)
+17:21:33 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object3.fits" (image format)
+17:22:46 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object4.fits" (image format)
+17:24:05 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object5.fits" (image format)
+17:25:15 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object6.fits" (image format)
+17:26:33 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object7.fits" (image format)
+17:27:52 [ INFO  ] muse_pixtable_load_window: [tid=000] Loading pixel table "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/PIXTABLE_REDUCED_Object8.fits" (image format)
+17:29:10 [ INFO  ] muse_xcombine_weights: [tid=000] 8 tables to be weighted using EXPTIME.
+17:30:27 [ INFO  ] muse_xcombine_tables: [tid=000] 8 tables to be combined
+17:30:27 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.176017/-53.670520 deg
+17:30:33 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.176016/-53.670519 deg
+17:30:40 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 2 (relative to exp. 1): -0.0,0.0 arcsec (corrected offset)
+17:33:22 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.176271/-53.670412 deg
+17:33:29 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 3 (relative to exp. 1): 0.5,0.4 arcsec (corrected offset)
+17:36:40 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.176273/-53.670412 deg
+17:36:46 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 4 (relative to exp. 1): 0.5,0.4 arcsec (corrected offset)
+17:40:02 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.175802/-53.670709 deg
+17:40:08 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 5 (relative to exp. 1): -0.5,-0.7 arcsec (corrected offset)
+17:43:00 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.175801/-53.670710 deg
+17:43:06 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 6 (relative to exp. 1): -0.5,-0.7 arcsec (corrected offset)
+17:46:07 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.175580/-53.670885 deg
+17:46:13 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 7 (relative to exp. 1): -0.9,-1.3 arcsec (corrected offset)
+17:49:17 [ INFO  ] muse_wcs_position_celestial: [tid=000] Adapting WCS to RA/DEC=265.175582/-53.670887 deg
+17:49:23 [ INFO  ] muse_xcombine_tables: [tid=000] Distance of exposure 8 (relative to exp. 1): -0.9,-1.3 arcsec (corrected offset)
+17:52:32 [ INFO  ] muse_postproc_cube_resample_and_collapse: [tid=000] Resampling to final cube follows, output format "FITS cube"
+17:52:32 [ INFO  ] muse_resampling_cube: [tid=000]   Output cube size 319 x 326 x 3681 (fit to data)
+17:57:05 [ INFO  ] muse_resampling_cube: [tid=000]   Using median statistics (10.000 sigma level) for cosmic-ray rejection
+17:59:43 [ INFO  ] muse_resampling_cube: [tid=000]   Starting resampling, using method "drizzle" (pixfrac f=0.600,0.600,0.600, loop distance ld=1)
+18:05:26 [ INFO  ] muse_postproc_qc_fwhm: [tid=000] Computed FWHM QC parameters for 73 of 76 sources found down to the 5.0 sigma threshold on plane 1841
+18:05:29 [ INFO  ] muse_processing_save_image: [tid=000] Saving image as IMAGE_FOV_0001.fits
+18:05:29 [ INFO  ] muse_table_load_filter: [tid=000] loaded filter "Johnson_V" from file "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2014-06-13T10:14:59.795.fits" (ext 2)
+18:05:31 [ INFO  ] muse_processing_save_image: [tid=000] Saving image as IMAGE_FOV_0002.fits
+18:05:31 [ INFO  ] muse_table_load_filter: [tid=000] loaded filter "Cousins_R" from file "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2014-06-13T10:14:59.795.fits" (ext 3)
+18:05:34 [ INFO  ] muse_processing_save_image: [tid=000] Saving image as IMAGE_FOV_0003.fits
+18:05:34 [ INFO  ] muse_table_load_filter: [tid=000] loaded filter "Cousins_I" from file "/home/mmarcano/Documents/ReduceMUSE2017/Observation1/data/data_with_raw_calibs/M.MUSE.2014-06-13T10:14:59.795.fits" (ext 4)
+18:05:35 [ INFO  ] muse_processing_save_image: [tid=000] Saving image as IMAGE_FOV_0004.fits
+18:06:35 [ INFO  ] muse_processing_save_cube: [tid=000] Saving FITS cube as "DATACUBE_FINAL.fits"
+18:06:45 [ INFO  ] : [tid=000] Calculating product checksums
+18:06:51 [ INFO  ] : [tid=000] Created product DATACUBE_FINAL.fits (in place)
+18:06:51 [ INFO  ] : [tid=000] Created product IMAGE_FOV_0001.fits (in place)
+18:06:51 [ INFO  ] : [tid=000] Created product IMAGE_FOV_0002.fits (in place)
+18:06:51 [ INFO  ] : [tid=000] Created product IMAGE_FOV_0003.fits (in place)
+18:06:51 [ INFO  ] : [tid=000] Created product IMAGE_FOV_0004.fits (in place)
+18:06:51 [ INFO  ] : [tid=000] 5 products created
+18:06:51 [ INFO  ] : [tid=000] Recipe operation(s) took       2.86e+03 seconds to complete.
+18:06:51 [ INFO  ] : [tid=000] Total size of 8 raw input frames  = 72548.00 MB
 
-18:36:57 [ INFO  ] : [tid=000] => processing rate of    19.87 MB/sec 
+18:06:51 [ INFO  ] : [tid=000] => processing rate of    25.33 MB/sec 
 

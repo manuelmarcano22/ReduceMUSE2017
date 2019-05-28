@@ -34,6 +34,7 @@ lookfits(files,lista,'HIERARCH ESO PRO CATG','FILTER_LIST','FILTER_LIST')
 
 
 
+
   
     
 

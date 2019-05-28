@@ -1,3 +1,3 @@
 muse.muse_scipost.filter=white,Johnson_V,Cousins_R,Cousins_I
-muse.muse_scipost.save=individual,combined,positioned,cube
-muse.muse_scipost.skymethod=none
+muse.muse_scipost.save=individual,combined,positioned,cube,skymodel
+muse.muse_scipost.skymethod=subtract-model
