@@ -1,0 +1,56 @@
+# Region file format: DS9 version 4.1
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+fk5
+circle(17:40:54.5432,-53:40:44.829,0.100") # color=red text={U5}
+circle(17:40:52.8442,-53:41:22.029,0.100") # color=red text={U7}
+circle(17:40:48.9902,-53:39:48.880,0.100") # color=red text={U10}
+circle(17:40:43.3402,-53:41:55.720,0.100") # color=red text={U14}
+circle(17:40:42.6482,-53:42:15.499,0.100") # color=red text={U16}
+circle(17:40:38.9162,-53:39:51.350,0.100") # color=red text={U28}
+circle(17:40:34.2142,-53:41:15.540,0.100") # color=red text={U31}
+circle(17:40:43.0712,-53:38:31.550,0.100") # color=red text={U42}
+circle(17:40:47.8192,-53:41:28.659,0.100") # color=red text={U60}
+circle(17:40:30.4342,-53:39:17.730,0.100") # color=red text={U62}
+circle(17:40:31.6752,-53:38:46.620,0.100") # color=red text={U63}
+circle(17:40:37.5702,-53:39:18.110,0.100") # color=red text={U65}
+circle(17:40:38.9302,-53:38:50.060,0.100") # color=red text={U66}
+circle(17:40:40.7422,-53:38:32.889,0.100") # color=red text={U68}
+circle(17:40:42.6932,-53:39:28.990,0.100") # color=red text={U73}
+circle(17:40:43.8302,-53:41:16.580,0.100") # color=red text={U76}
+circle(17:40:44.1372,-53:42:11.740,0.100") # color=red text={U77}
+circle(17:40:46.4212,-53:40:04.310,0.100") # color=red text={U79}
+circle(17:40:46.4672,-53:41:56.760,0.100") # color=red text={U80}
+circle(17:40:46.4932,-53:41:15.699,0.100") # color=red text={U81}
+circle(17:40:48.5492,-53:39:39.790,0.100") # color=red text={U82}
+circle(17:40:49.6272,-53:40:43.280,0.100") # color=red text={U83}
+circle(17:40:54.8192,-53:40:20.050,0.100") # color=red text={U84}
+circle(17:40:37.4852,-53:41:47.500,0.100") # color=red text={U86}
+circle(17:40:42.4088,-53:40:46.577,0.086") # color=red text={U93}
+circle(17:40:42.8802,-53:40:49.329,0.100") # color=red text={U94}
+circle(17:40:39.1092,-53:40:23.350,0.100") # color=red text={U96}
+circle(17:40:41.0062,-53:40:58.660,0.100") # color=red text={U98}
+circle(17:40:46.4432,-53:40:30.660,0.100") # color=red text={U99}
+circle(17:40:38.2132,-53:40:46.809,0.100") # color=red text={U100}
+circle(17:40:45.4112,-53:41:01.659,0.100") # color=red text={U101}
+circle(17:40:38.8572,-53:39:43.380,0.100") # color=red text={U102}
+circle(17:40:35.7102,-53:40:12.820,0.100") # color=red text={U103}
+circle(17:40:43.1362,-53:39:29.300,0.100") # color=red text={U104}
+circle(17:40:36.5332,-53:41:08.110,0.100") # color=red text={U105}
+circle(17:40:43.7492,-53:39:17.780,0.100") # color=red text={U106}
+circle(17:40:34.1272,-53:40:17.270,0.100") # color=red text={U107}
+circle(17:40:52.1112,-53:39:48.510,0.100") # color=red text={U108}
+circle(17:40:52.7402,-53:40:53.139,0.100") # color=red text={U109}
+circle(17:40:33.4672,-53:39:17.090,0.100") # color=red text={U110}
+circle(17:40:29.8572,-53:40:27.250,0.100") # color=red text={U111}
+circle(17:40:50.3862,-53:39:06.260,0.100") # color=red text={U112}
+circle(17:40:43.4812,-53:40:34.600,0.100") # color=red text={U114}
+circle(17:40:46.5292,-53:40:15.900,0.100") # color=red text={U120}
+circle(17:40:33.6432,-53:39:35.220,0.100") # color=red text={U121}
+circle(17:40:47.9152,-53:39:25.089,0.100") # color=red text={U122}
+circle(17:40:49.6332,-53:38:46.190,0.100") # color=red text={U123}
+circle(17:40:42.4145,-53:40:46.801,0.066")
+circle(17:40:42.4101,-53:40:46.590,0.150") # text={[SII]?}
+circle(17:40:40.3038,-53:40:45.745,0.159")
+circle(17:40:41.6735,-53:40:29.965,0.138")
+circle(17:40:41.5271,-53:40:27.231,0.086") # text={6675 single pic}
+circle(17:40:41.5714,-53:40:16.225,0.118")
